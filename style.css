@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* CSS RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+/* CSS VARIABLES */
+:root {
+    /* COLORS */
+    --PRIMARY-PINK: #FF52C1;
+    --LIGHT-PINK: #FF8ED7;
+    --LIGHT-RED: #ff4242;
+    --VERY-DARK-CYAN: #00252e;
+    --VERY-PALE-BLUE: #f5faff;
+
+    /* FONTS */
+    --HEADINGS-FF: "Poppins";
+    --BODY-FF: "Open Sans";
+}
+
+.header {
+    font-family: var(--BODY-FF);
+    margin-block-start: 78px;
+    margin-inline-start: 80px;
+    margin-inline-end: 63px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__button {
+    padding-block-start: 9px;
+    padding-inline-end: 30px;
+    padding-block-end: 9px;
+    padding-inline-start: 31px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--PRIMARY-PINK);
+    border: 1px solid var(--PRIMARY-PINK);
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+}
