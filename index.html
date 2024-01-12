@@ -10,7 +10,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <style>
@@ -69,22 +69,32 @@
       </div>
 
       <section class="grow">
-        <img src="./images/bg-section-top-desktop-1.svg" alt="" />
+        <img
+          class="grow__curve curve"
+          src="./images/bg-section-top-desktop-1.svg"
+          alt=""
+        />
         <div class="grow__content">
+          <div class="grow__text">
+            <h3 class="grow__heading">Grow Together</h3>
+            <p class="grow__p">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+
           <img
             class="grow__img"
             src="./images/illustration-grow-together.svg"
             alt="Grow together image"
           />
-
-          <h3 class="grow__heading">Grow Together</h3>
-          <p class="grow__text">
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
         </div>
-        <img src="./images/bg-section-bottom-desktop-1.svg" alt="" />
+        <img
+          class="grow__curve curve"
+          src="./images/bg-section-bottom-desktop-1.svg"
+          alt=""
+        />
       </section>
 
       <section class="flowing">
@@ -94,31 +104,45 @@
             src="./images/illustration-flowing-conversation.svg"
             alt="Flowing conversations image"
           />
-          <h3 class="flowing__heading">Flowing Conversations</h3>
-          <p class="flowing__text">
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
+          <div class="flowing__text">
+            <h3 class="flowing__heading">Flowing Conversations</h3>
+            <p class="flowing__p">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="users">
-        <img src="./images/bg-section-top-desktop-2.svg" alt="" />
+        <img
+          class="users__curve curve"
+          src="./images/bg-section-top-desktop-2.svg"
+          alt=""
+        />
         <div class="users__content">
+          <div class="users__text">
+            <h3 class="users__heading">Your Users</h3>
+            <p class="users__p">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+
           <img
             class="users__img"
             src="./images/illustration-your-users.svg"
             alt="Your users image"
           />
-          <h3 class="users__heading">Your Users</h3>
-          <p class="users__text">
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
         </div>
-        <img src="./images/bg-section-bottom-desktop-2.svg" alt="" />
+
+        <img
+          class="users__curve curve"
+          src="./images/bg-section-bottom-desktop-2.svg"
+          alt=""
+        />
       </section>
 
       <section class="cta">
@@ -129,7 +153,7 @@
 
     <footer class="footer">
       <img
-        class="footer__bg1"
+        class="footer__bg1 curve"
         src="./images/bg-footer-top-desktop.svg"
         alt=""
       />
