@@ -147,6 +147,11 @@ button:active, button:hover {
   margin-block-start: 120px;
 }
 
+.main {
+  width: 100vw;
+}
+
+/* DIAGRAM SECTION */
 .info {
   display: flex;
   justify-content: center;
@@ -155,7 +160,6 @@ button:active, button:hover {
   gap: 341px;
 }
 
-/* DIAGRAM SECTION */
 .info__communities,
 .info__messages {
   display: flex;
@@ -441,80 +445,54 @@ button:active, button:hover {
 }
 
 .hero__p {
-  color: var(--BLACK);
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px; /* 150% */
-  width: 600px;
-  margin-block-start: 26px;
+  font-size: 14px;
+  line-height: 21px;
+  width: 296px;
+  margin-block-start: 24px;
 }
 
 .hero__button,
 .cta__button {
-  background-color: var(--PRIMARY-PINK);
-  border-radius: 50px;
-  border: none;
-  color: var(--WHITE);
-  cursor: pointer;
-  filter: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px; /* 150% */
-  padding-block-end: 25px;
-  padding-block-start: 25px;
-  padding-inline-end: 99px;
-  padding-inline-start: 100px;
+  filter: drop-shadow(0px 3px 7px rgba(0, 37, 46, 0.22));
+  font-size: 12px;
+  line-height: 18px;
+  padding-block-end: 11px;
+  padding-block-start: 11px;
+  padding-inline-end: 40px;
+  padding-inline-start: 39px;
 }
 
 .hero__button {
-  margin-block-start: 49px;
-}
-
-button:active, button:hover {
-  background-color: var(--LIGHT-PINK);
+  margin-block-start: 48px;
 }
 
 .hero__image {
-  margin-block-start: 120px;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-  margin-block-start: 120px;
-  font-family: "Open Sans";
-  gap: 341px;
+  margin-block-start: 104px;
 }
 
 /* DIAGRAM SECTION */
-.info__communities,
-.info__messages {
-  display: flex;
+.info {
   flex-direction: column;
-  position: relative;
+  align-items: center;
+  gap: 88px;
 }
 
 .communities__img {
-  width: 56px;
-  height: 56px;
-  margin-block-end: -16px;
+  width: 35.556px;
+  height: 35.656px;
+  margin-block-end: -10.06px;
 }
 
 .communities__num,
 .messages__num {
-  color: var(--BLACK);
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 144px; /* 150% */
+  font-size: 60.952px;
+  line-height: 91.429px; /* 150% */
 }
 
 .communities__text,
 .messages__text {
-  color: #808e9a;
-  text-align: center;
-  font-size: 24px;
-  line-height: 36px; /* 150% */
+  font-size: 15.238px;
+  line-height: 22.857px; /* 150% */
 }
 
 .messages__img {
